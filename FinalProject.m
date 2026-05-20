@@ -1,4 +1,4 @@
-robotArm = importrobot("pro600.urdf");
+robotArm = importrobot("URDF/pro600.urdf");
 robotArm.DataFormat = 'column';
 homeConfig = [8.63 -130.20 -128.53 -11.27 90.00 1.38]'*pi/180;
 endEffector = 'link6';
