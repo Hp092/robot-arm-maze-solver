@@ -6,7 +6,21 @@ End-to-end system that photographs a physical maze, solves it with A*, and comma
 
 ## Demo
 
-https://github.com/Hp092/robot-arm-maze-solver/blob/main/DemoVideo.mp4
+<p align="center">
+  <img src="media/demo.gif" width="480" alt="Robot arm tracing solved maze path"/>
+</p>
+
+Full video: https://github.com/Hp092/robot-arm-maze-solver/blob/main/DemoVideo.mp4
+
+---
+
+## A* Maze Solution
+
+The A* solver generates an optimal path through the maze (left: 4×4, right: 50×50). Waypoint coordinates are exported to CSV and fed into the IK solver.
+
+<p align="center">
+  <img src="media/maze_solved.png" width="720" alt="A* solved maze paths — 4x4 and 50x50"/>
+</p>
 
 ---
 
