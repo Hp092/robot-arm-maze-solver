@@ -1,0 +1,6 @@
+slprj/
+*.asv
+*.autosave
+*.m~
+__pycache__/
+*.pyc
